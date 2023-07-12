@@ -24,5 +24,5 @@ fun inicial(){
 }
 
 fun isNumber(string: String): Boolean {
-    return string.none { it !in '0'..'9' }
+    return string.none { it !in '0'..'9' && it !in "." }
 }
